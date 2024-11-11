@@ -4,7 +4,6 @@ const decodeTheRing = function (s, p) {
   
   let starIndex = -1, matchIndex = -1;
 
-  // we have to traverse the string
   while (sIndex < s.length) {
     // If characters match or the pattern character is '?', increment the two pointers
     if (pIndex < p.length && (p[pIndex] === s[sIndex] || p[pIndex] === '?')) {
